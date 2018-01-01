@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="jaeseong">
+    <meta name="description" content="welcome to kakao">
+    <!-- description은 검색했을때 아래쪽에 간략하게 설명이 나오는 부분 -->
+
+    <title>제목이다</title>
+    <style>
+    body,html{
+      height: 100%;
+      width: 100%;
+    }
+    div{
+      display: block;
+    }
+      .box{
+        width: 200px;
+        height: 200px;
+        animation: 3s thename infinite ease-in-out;
+      }
+      @keyframes thename {
+
+        0%{
+          margin-right: 0px;
+          transition: all 4s;
+          background-color: green;
+          transform: none;
+        }
+        50%{
+          background-color: red;
+          margin-right: 50%;
+          transform: rotate(1turn);
+        }
+        100%{
+          margin-right: 0px;
+          transition: all 4s;
+          background-color: green;
+          transform: none;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      123
+    </div>
+  </body>
+</html>
