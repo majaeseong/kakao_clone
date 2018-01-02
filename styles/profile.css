@@ -1,0 +1,61 @@
+.top_header_transparent {
+  background-color: transparent;
+}
+
+.profile .profile_header {
+  height: 80vh;
+  background-image: url("http://www.kyeongin.com/mnt/file/201712/20171213001007367_1.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  top: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profile_header .profile_header_container {
+  text-align: center;
+  position: relative;
+  bottom: -50px;
+}
+.profile_header_container img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile .profile_continer {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile_continer input {
+  text-align: center;
+  padding: 5px 2px;
+  margin-bottom: 20px;
+}
+.profile_actions {
+  display: flex;
+}
+.profile_actions .profile_action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.profile_action .profile_action_circle {
+  background-color: #f2f2f2;
+  padding: 15px;
+  border-radius: 50%;
+  color: #523737;
+  margin-bottom: 15px;
+}
+.profile_action .profile_action_title {
+  font-size: 12px;
+  font-weight: 600;
+  color: #523737;
+}
